@@ -13,12 +13,12 @@ import aiohttp
 bot = commands.Bot(command_prefix = commands.when_mentioned_or("m."))
 tu = datetime.datetime.now()
 version = "Mod Bot v0.2"
-logs = discord.Object("401552701835444225")
-bot.remove_command("help")
-errorlogs = discord.Object("414261857524908032")
+logs = discord.Object("578429395224625157")
+bot.command("help")
+errorlogs = discord.Object("578429395224625157")
 
 startup_extensions = ["cogs.admin", "cogs.help", "cogs.botsorgapi"]
-adminids = ["221381001476046849", "342853951353520128"]
+adminids = ["457058170880131074", "457058170880131074"]
 
 for extension in startup_extensions:
     try:
